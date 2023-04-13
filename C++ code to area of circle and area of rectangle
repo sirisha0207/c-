@@ -1,0 +1,35 @@
+Area Of Circle
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  float radius, area;
+
+  cout << "Enter radius of circle: ";
+  cin >> radius;
+
+  area = 3.14*radius*radius;
+  cout << "Area = " << area << endl;
+
+  return 0;
+}
+
+
+Area Of Rectangle
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+  float length, width, area;
+
+  cout << "Enter length and width of triangle: ";
+  cin >> length >> width ;
+
+  area= length* width;
+  cout << "Area = " << area << endl;
+
+  return 0;
+}
